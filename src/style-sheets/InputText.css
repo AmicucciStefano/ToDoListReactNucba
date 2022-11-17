@@ -1,0 +1,40 @@
+.container-input {
+    width: 100%;
+    text-align: center;
+}
+
+.container-input h3 {
+    color: white;
+}
+
+.input-text {
+    width: 80%;
+    padding: 1rem;
+}
+
+.button-send {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 10%;
+    border-radius: 10px;
+    font-weight: 600;
+    padding:2px;
+    background-color: #fff;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: 0.5s;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.button-send * {
+    pointer-events: none;
+}
+
+.button-send:Hover {
+    background-color: rgba(253, 27, 102, 0.667);
+    color: #fff;
+}
