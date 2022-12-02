@@ -1,4 +1,4 @@
-import "../style-sheets/InputText.css"
+import "../../style-sheets/InputText.css"
 
 export const InputText = ({ handleClick }) => {
     return (

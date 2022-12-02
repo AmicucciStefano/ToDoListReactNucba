@@ -13,14 +13,18 @@ const LiContainer = styled.div `
     margin-bottom: 10px;
 `;
 
+const TrashContainer = styled.div`
+    cursor: pointer;
+`;
+
 
 export const ElementList = ({ task, deleteTask, id }) => {
     return (
         <LiContainer>
             <li>{task}</li>
-            <div onClick={() => deleteTask(id)}>
+            <TrashContainer onClick={() => deleteTask(id)}>
                 <FaTrash />
-            </div>
+            </TrashContainer>
             
         </LiContainer>
     );
